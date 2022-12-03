@@ -1,23 +1,65 @@
-# **Hi**gh-order **Vla**sov-Poisson **Shea**th solver by **S**emi-**L**agrangian.
+# <ins>Hi</ins>gh-order <ins>Vla</ins>sov-Poisson <ins>Shea</ins>th solver by <ins>S</ins>emi-<ins>L</ins>agrangian.
 
-* Authors : [Yann Barsamian](https://www.barsamian.am/), [Michel Mehrenberger](http://www.i2m.univ-amu.fr/perso/mehrenberg.m/).
+* Authors : [Yann Barsamian](https://www.barsamian.am/), [Michel Mehrenberger](http://www.i2m.univ-amu.fr/perso/mehrenberg.m/), [Averil Prost](https://averil-prost.github.io/).
  
 Simulation of the symmetric sheath problem with ionization term. Discretization by Semi-Lagrangian with Lagrange polynomial interpolation and time splitting. 
 
 File structure on sept, 5th 2022:
 
-- data\_input/ 		*folder for initial conditions (.dat)*
-- data\_output/ 		*outputs from Yann c code (.hdf5, .dat, .txt...)*
-- python\_diags/		*outputs from diag_sheath (.png, .mp4, .txt...)*
-- yaml/			*folder for configuration files (.yaml)*
-- include/		*all c dependencies*
+<table>
+<tr>
+<td align='right'>
 
-- compile\_hivlashea.sh 	*compile script*
-- hivlashea.c 		*main of the c code*
-- hivlashea.out 	*when created, ignored by git. executable*
-- diag\_sheath.py	*python script to generate post-treatment diags*
-- savedata.sh		*script to copy inputs, outputs and yaml in a separate folder*
-- clean.sh		*script to clean output folders*
+data\_input/
+
+data\_output/ 
+
+python\_diags/	
+
+yaml/	
+
+include/
+
+compile\_hivlashea.sh 
+
+hivlashea.c 
+
+hivlashea.out 
+
+diag\_sheath.py	
+
+savedata.sh	
+
+clean.sh	
+
+</td>
+<td>
+
+folder for initial conditions (.dat)
+
+outputs from c code (.hdf5, .dat, .txt...)
+
+outputs from diag_sheath (.png, .mp4, .txt...)
+
+folder for configuration files (.yaml)
+
+all c dependencies
+
+compile script
+
+main of the c code
+
+when created, ignored by git. executable
+
+python script to generate post-treatment diags
+
+script to copy inputs, outputs and yaml in a separate folder
+
+script to clean output folders
+
+</td>
+</tr>
+</table>
 
 How to use: 
 - compile with `./compile_hivlashea.sh` 
