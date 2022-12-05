@@ -4,7 +4,7 @@
  
 Simulation of the symmetric sheath problem with ionization term. Discretization by Semi-Lagrangian with Lagrange polynomial interpolation and time splitting. 
 
-File structure on sept, 5th 2022:
+Expected file structure upon run:
 
 <table>
 <tr>
